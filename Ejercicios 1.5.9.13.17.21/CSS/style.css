@@ -1,0 +1,29 @@
+.noticia {
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	padding: 20px;
+}
+
+.tituloNoticia {
+	margin-top: 0;
+}
+
+.descripcionNoticia {
+	font-size: 16px;
+}
+
+.btnNoticia {
+	margin-top: 10px;
+}
+
+table {
+	border-collapse: collapse;
+}
+td {
+	width: 200px;
+	height: 50px;
+	border: 1px solid black;
+	text-align: center;
+	vertical-align: middle;
+	background-color: white;
+}

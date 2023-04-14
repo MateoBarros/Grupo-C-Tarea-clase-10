@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo C</title>
+    <script src="GrupoC.js"></script>
+    <link rel="stylesheet" href="GrupoC.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<script>
+  $(document).ready(function(){
+  $("#strong1").click(function(){
+  $("#strong1").toggle('fast');
+  });});
+  $(document).ready(function(){
+  $("#strong2").click(function(){
+  $("#strong2").toggle('fast');
+  });});
+  $(document).ready(function(){
+  $("#resumen").click(function(){
+  $("#resumen").toggle('slow');
+  });});
+  $(document).ready(function(){
+  $("#etimologia").click(function(){
+  $("#etimologia").toggle('slow');
+  });});
+  $(document).ready(function(){
+  $("#descripcion").click(function(){
+  $("#descripcion").toggle('slow');
+  });});
+</script>
+
+<body>
+    <h1>Ejercicio 12</h1>
+    <table>
+        <tr class="nombre">
+          <th class="nombre">Nombre</th>
+          <th class="nombre">Zeus</th>
+          <th class="nombre">Suki</th>
+          <th class="nombre">Alma</th>
+        </tr>
+        <tr class="raza">
+          <th>Raza</th>
+          <td class="raza">Jack Russell</td>
+          <td class="raza">Shihtzu</td>
+          <td class="raza">Labrador</td>
+        </tr>
+        <tr class="edad">
+          <th class="edad">Edad</th>
+          <td class="edad">16</td>
+          <td class="edad">10</td>
+          <td class="edad">5</td>
+        </tr>
+        <tr class="locacion">
+        <th class="locacion">Locación</th>
+        <td class="locacion">Temperley</td>  
+        <td class="locacion">Recoleta</td>
+        <td class="locacion">Avellaneda</td>
+        </tr>
+    </table>
+
+    <br>
+    <div>
+    <h1>Ejercicio 16</h1>
+    <em>Confeccionar una página que contenga algunas palabras con el elemento </em>
+    <strong onclick="ocultar()" id="strong1">strong</strong>
+    <em>, luego cuando sean presionadas</em>
+    <strong onclick="ocultar()" id="strong2">ocultarlas.</strong>
+    </div>
+    <br>
+
+    <h1>Ejercicio 20</h1>
+  <div>
+    <h5 id="resumen">El dogo argentino es una raza de perro de presa utilizada para la caza mayor originaria de la Provincia de Córdoba, Argentina.</h5>  
+    <h5 id="etimologia">La palabra dogo tiene un equivalente escrito en inglés medio y alemán como dogge y en francés y portugués como dogue. Es un término utilizado principalmente para definir perros de presa o un perro de gran alcance de pelaje corto.</h5>
+    <h5 id="descripcion">A nivel estándar racial, es un perro robusto, de estructura maciza y resistente en todas las partes del cuerpo. Con la capa de pelo completamente blanca, para distinguirlo fácilmente en el campo y el monte. La cabeza es grande con cráneo macizo. Hocico ligeramente cóncavo, con labios finos que al morder y atrapar a la presa le permiten seguir respirando sin soltar. Los ojos de color pardo, bien separados entre sí. Orejas erguidas o semierguidas, triangulares y cortadas —en los países en los que se permita todavía cortarlas-. </h5>
+  </div>
+</body>
+</html>

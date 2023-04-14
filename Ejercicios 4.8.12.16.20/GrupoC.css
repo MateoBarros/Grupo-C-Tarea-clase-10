@@ -1,0 +1,18 @@
+td,th{
+    border: solid black 1px;
+    text-align: center;
+    padding: 7px;
+}
+
+ .nombre:active {
+   background-color: rgb(211, 42, 42);
+    }
+ .raza:active {
+    background-color: rgb(223, 151, 44);
+    }
+.edad:active {
+    background-color: rgb(235, 232, 53);
+    }
+.locacion:active {
+    background-color: rgb(8, 185, 17);
+    }
